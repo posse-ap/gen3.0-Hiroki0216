@@ -105,12 +105,15 @@ color: #0071BC;
 .mainvisual_section2_img{
     width: 472px;
 height: 312px;
-
 background: url(IMG_3569_polarr.jpg);
-border-radius: 24px;
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+
+.img2{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .mainvisual_sectionn2_p3{
@@ -150,17 +153,39 @@ flex-grow: 0;
     width: 40px;
 }
 
+.mainvisual_section3{
+    align-items: center;
+}
 .difficult {
-    background-image: url("../img/bg-line.jpg");
-    text-align: center;
-    color: white;
+    position: relative;
+    border-radius: 20px;    
 }
 
+/* .difficult::before{
+    background-color: #0071BC;
+    opacity: 0.5;
+} */
+
+.mainvisual_section3_div{
+    border-radius: 20px;
+}
+
+.img3{
+    width: 100%;
+    border-radius: 20px;
+}
 .mainvisual_sectio3_container{
+    position: absolute;
+    top: 25px;
+    left: 300px;
     display: flex;
     justify-content: center;
 }
-
+.mainvisual_section3_div2{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
 .mainvisual_section3_p{
     font-size: 36px;
 }
@@ -174,9 +199,23 @@ flex-grow: 0;
 }
 
 .section3_img{
-    margin-left:auto;
+    position: absolute;
+    right: 520px;
 }
 
+.line2{
+    width: 40px;
+}
+.footer-div1{
+    display: flex;
+    background-color: rgb(191, 209, 191);
+    width: 300px;
+    position: fixed; /* 要素の位置を固定する */
+    bottom: 20px; /* 基準の位置を画面の一番下に指定する */
+    right: 0;
+    border-radius: 20px;
+    justify-content: center;
+}
 .footer1 {
     display: flex;
     justify-content: center;
