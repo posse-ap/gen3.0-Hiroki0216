@@ -1,0 +1,236 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.posse {
+    display: block;
+    margin: 0px auto;
+}
+
+
+.mainvisual_section_1 {
+    position: relative;
+    /* position: absolute;
+    width: 1440px; */
+    height: 680px;
+    /* left: 0px;
+    top: 0px; */
+}
+
+.mainvisual_title {
+    position: absolute;
+    background-color: aliceblue;
+    width: 500px;
+    height: 281px;
+    left: 80px;
+    top: 198px;
+    border-radius: 24px;
+    font-size: 60px;
+}
+
+.mainvisual_title_1{
+    font-size: 16px;
+    color: blue;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+
+.mainvisual_title_2{
+    font-size: 60px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.mainvisual_img {
+    position: absolute;
+    width: 976px;
+    height: 680px;
+    right: 0;
+    top: 0;
+}
+
+.mainvisual_img_sub {
+    width: 100%;
+    border-radius: 80px 0px 0px 80px;
+}
+
+.mainvisual_section2{
+   /* position: absolute;
+    width: 1440px;
+    height: 680px;
+    left: 0px;
+    top: 700px;*/
+}
+
+.mainvisual_section2_div1{
+    display:flex;
+  flex-direction: column;
+}
+
+.mainvisual_section2_div2{
+    display:flex;
+}
+
+.mainvisual_section2_p1{
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+text-align: center;
+color: #333333;
+}
+
+.mainvisual_section2_p2{
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 180%;
+text-align: center;
+color: #0071BC;
+}
+
+.mainvisual_section2_img{
+    width: 472px;
+height: 312px;
+background: url(IMG_3569_polarr.jpg);
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.img2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mainvisual_sectionn2_p3{
+    width: 472px;
+height: 175px;
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 180%;
+text-align: justify;
+color: #333333;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.mainvisual_section_3{
+    margin:0 auto;
+    width: 984px;
+    /* position: absolute;
+    width: 1440px;
+    height: 680px;
+    left: 0px;
+    top: 1400px; */
+}
+
+.img2 {
+    width: 100%;
+}
+
+
+
+
+.line {
+    width: 40px;
+}
+
+.mainvisual_section3{
+    align-items: center;
+}
+.difficult {
+    position: relative;
+    border-radius: 20px;    
+}
+
+/* .difficult::before{
+    background-color: #0071BC;
+    opacity: 0.5;
+} */
+
+.mainvisual_section3_div{
+    border-radius: 20px;
+}
+
+.img3{
+    width: 100%;
+    border-radius: 20px;
+}
+.mainvisual_sectio3_container{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+}
+.mainvisual_section3_div2{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.mainvisual_section3_p{
+    font-size: 36px;
+}
+
+.mainvisual_section3_a{
+    background-color: white;
+    padding: 12px 120px;
+    border-radius: 98px;
+    color: grey;
+    text-decoration: none;
+}
+
+.section3_img{
+    position: absolute;
+    right: 520px;
+}
+
+.line2{
+    width: 40px;
+}
+.footer-div1{
+    display: flex;
+    background-color: rgb(191, 209, 191);
+    width: 300px;
+    position: fixed; /* 要素の位置を固定する */
+    bottom: 20px; /* 基準の位置を画面の一番下に指定する */
+    right: 0;
+    border-radius: 20px;
+    justify-content: center;
+}
+.footer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: center;
+}
+
+.about_posse {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
